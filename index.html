@@ -1,0 +1,662 @@
+<html>
+    <head>
+        <title>Teju Retail Store</title>
+        <link rel="stylesheet"href="style.css"><script src="main.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+    <div class="top-nav-bar">
+     <div class="search-box">
+       <i class="fa fa-bars" id="menu-btn" onclick="open-menu()"></i>  
+       <i class="fa fa-times" id="close-btn" onclick="close-menu()"></i>  
+        <img src="https://img.freepik.com/free-vector/gradient-t-logo-template_23-2149372726.jpg" class="logo">         
+        <input type="text" class="form-control">
+         <span class="input-group-text"><i class="fa fa-search"></i></span> 
+        </div>
+        <div class="menu-bar">
+            <ul>
+              <li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+                 <li><a href="#">SignUp</a></li>
+                 <li><a href="#">LogIn</a></li>
+            </ul>
+        </div>
+        </div>
+    <section class="header">
+    <div class="side-menu" id="side-menu">
+     <ul>
+         <li>Electronics<i class="fa fa-angles-right"></i></li>
+         <ul>
+             <li>Smart watch</li>
+             <li>Laptop</li>
+             <li>Hedset</li>
+             <li>Smart phone</li>
+         </ul>
+         <li>Fastion<i class="fa fa-angles-right"></i></li>
+         <ul>
+           <li>Sarees</li>
+          <li>Kurthas</li>
+         <li>Jewellery</li>
+        <li>Bottom wear</li>
+         </ul>
+        <li>Vegitables<i class="fa fa-angles-right"></i></li>
+         <ul>
+             <li>Onion</li>
+             <li>Carrot</li>
+             <li>Bringal</li>
+             <li>Tomato</li>
+         </ul>
+         <li>Fruits<i class="fa fa-angles-right"></i></li>
+         <ul>
+             <li>Banana</li>
+             <li>Apple</li>
+             <li>Guava</li>
+             <li>Orange</li>
+         </ul>
+         <li>Groceries<i class="fa fa-angles-right"></i></li>
+         <ul>
+             <li>Soaps</li>
+             <li>Oil</li>
+             <li>Millets</li>
+             <li>Flor</li>
+         </ul>
+    </ul>
+    </div>
+
+       <div class="container">  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+  <li data-target="#myCarousel" data-slide-to="3"></li>    
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=900&t=st=1706778386~exp=1706778986~hmac=a9f1eb40e6b45424519e49dc1459398f19f3db2fda848eebd646bd1e291d81d7" style="width:300%;height: 200px">
+      </div>
+
+      <div class="item">
+        <img src="https://img.freepik.com/free-photo/beautiful-second-hand-market_23-2149353670.jpg?w=900&t=st=1706778462~exp=1706779062~hmac=0ed9547e8c70e61953203c8c84df15f39fc4f0607b3e34f1c2def6fa330488d5" style="width:300%;height: 200px;">
+      </div>
+    
+      <div class="item">
+        <img src="https://t3.ftcdn.net/jpg/01/47/51/60/240_F_147516063_hCXI8VUIdBYud0B0hhS3Yo5CFTT1a4g8.jpg" style="width:300%;height: 200px;">
+      </div>
+    <div class="item">
+        <img src="https://media.istockphoto.com/id/1406885804/photo/a-shopping-cart-by-a-store-shelf-in-a-supermarket.jpg?s=2048x2048&w=is&k=20&c=ayIpkjD8WOhFxM2AXD5ZqslvVNbfMn6ygR5WzjN3RNk=" style="width:300%;height: 200px;">
+      </div> <br>  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  
+    
+        <!------------------featured-categories---------------------------->
+        <section class="featured-categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+            
+                        <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width: 200px;height: 200px;"></div>
+               <div class="col-md-3"> 
+                   <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width: 200px;height: 200px;"></div>
+                   <div class="col-md-3"> 
+                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width: 200px;height: 200px;">
+                   
+            </div>  
+                </div>
+                </div>
+            </section>
+        <!---------------------------on sale products---------------------------------------->
+    <section class="on-sale">
+        <div class="container">
+        <div class="title-box" > 
+            <h4>On sale</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SL1500_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>fitness watch</h4>
+                        <h5>$600.00</h5>
+                    </div></div>
+            
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/71p-M3sPhhL._SL1500_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>Laptop</h4>
+                        <h5>$30000.00</h5>
+                    </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/71od4dD13lL._SL1498_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>head set</h4>
+                        <h5>$3000.00</h5>
+                    </div></div>
+            
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/61L1ItFgFHL._SL1500_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>smart phone</h4>
+                        <h5>$15000.00</h5>
+                </div></div></div>
+    <h3>Fashon store</h3>
+            <section class="on-sale">
+        <div class="container">
+        <div class="title-box" > 
+            <h4>On sale</h4>
+            </div>
+           < div class="row">
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/h/tr:w-960,/pht0044_1_f5d1504b.jpg?rnd=20200526195200" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>kurtha sets</h4>
+                        <h5>$1500.00</h5>
+                </div></div>
+            
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20230822/CL2k/64e470abddf77915195e803c/-1117Wx1400H-466303960-green-MODEL.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>Banarasi saree</h4>
+                        <h5>$900.00</h5>
+                </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.curiocottage.in/cdn/shop/files/FEC142_0_122f8836-4b40-42d4-a2d4-5e688630f281_900x.jpg?v=1700404908" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>Ear rings</h4>
+                        <h5>$99.00</h5>
+                </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/91InDBjU4fL._SX695_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>Jewellery set</h4>
+                        <h5>$899.00</h5>
+                </div></div></div>
+             <section class="on-sale">
+                 <h3>Vegitable store</h3>
+        <div class="container">
+        <div class="title-box" > 
+            <h4>On sale</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/41Pi5dfvOoL.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-empty"></i> 
+                        <h4>1KG Onion</h4>
+                        <h5>$120.00</h5>
+                    </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/04/23175719/shutterstock_440493100-1-1140x760.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>1KG Crrot</h4>
+                        <h5>$50.00</h5>
+                </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://images.pexels.com/photos/1367242/pexels-photo-1367242.jpeg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4> 1KG Tomato</h4>
+                        <h5>$85.00</h5>
+                </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.choosemycart.com/wp-content/uploads/2021/06/Brinjal1.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>1 KG Brinjal</h4>
+                        <h5>$76.00</h5>
+                </div></div></div>
+            <section class="on-sale">
+                 <h3>fruit store</h3>
+        <div class="container">
+        <div class="title-box" > 
+            <h4>On sale</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://thumbs.dreamstime.com/z/red-apple-leaf-slice-white-background-29914331.jpg?ct=jpeg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-empty"></i> 
+                        <h4>1KG Apple</h4>
+                        <h5>$189.00</h5>
+                    </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://media.istockphoto.com/id/1227301369/photo/whole-cross-section-and-quarter-of-fresh-organic-navel-orange-with-leaves-in-perfect-shape-on.jpg?s=2048x2048&w=is&k=20&c=vZqhkNUBLYebLrb5L4gikjdizUuJ4F3p2suY9YTy-4A=" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-empty"></i> 
+                        <h4>1KG orange</h4>
+                        <h5>$120.00</h5>
+                    </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/1656948391/display_1500/stock-photo-isolated-green-guava-with-pink-flesh-one-whole-fruit-and-a-half-isolated-on-white-background-with-1656948391.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                <h4>1KG Guva</h4>
+                        <h5>$50.00</h5>
+                    </div></div>
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/1722111529/display_1500/stock-photo-bunch-of-bananas-isolated-on-white-background-with-clipping-path-and-full-depth-of-field-1722111529.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <h4> Banana</h4>
+                        <h5>$40.00</h5>
+                    </div></div>
+                <section class="on-sale">
+                 <h3>Groceries</h3>
+        <div class="container">
+        <div class="title-box" > 
+            <h4>On sale</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/71eJAaD6aBL._SL1500_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-empty"></i> 
+                        <h4>mysore sandal soap</h4>
+                        <h5>$208.00</h5>
+                    </div></div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/91o0m2iIpVL._SL1500_.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>5KG Aashirvaad </h4>
+                        <h5>$900.00</h5>
+                </div></div>    
+              <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/81ILzuTdkbL.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>Sunflower Oil</h4>
+                        <h5>$115.00</h5>
+                </div></div>      
+               
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/61-zRoFrfqL.jpg" style="width: 200px;height: 300px;">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title ="Quick shop">
+                            <i class="fa fa-eye"></i> </button> 
+                        <button type="button" class="btn btn-secondary" title ="Add to wish list">
+                            <i class="fa fa-heart"></i> </button>
+                        <button type="button" class="btn btn-secondary" title ="Add to cart">
+                            <i class="fa fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-half-o"></i> 
+                        <h4>Tata salt</h4>
+                        <h5>$19.00</h5>
+                </div></div>
+            </div>
+                    </div>
+                </section>
+                 
+    <!---------------------Website features-------------------------------------->
+                <section class="website-features">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-md-3 feature-box">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/1249195444/display_1500/stock-vector-vector-approved-by-boss-scratched-stamp-seal-with-tick-inside-green-approved-by-boss-watermark-1249195444.jpg" style="width: 50px;height: 50px;">  
+                      <div class="feature-text">
+                          <p><b>100% original items</b>are available at company.</p>
+                            </div>      
+                            </div>
+                  <div class="col-md-3 feature-box">
+                  <img src="https://static-00.iconduck.com/assets.00/return-icon-1813x2048-9ujw30iw.png"style="width: 30px;height: 30px;">          
+                  <div class="feature-text">
+                  <p><b>Return within 30 days</b>of recieving your order.</p>    
+                 </div></div>          
+                 <div class="col-md-3 feature-box">
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg"style="width: 50px;
+                  height: 50px;">          
+                  <div class="feature-text">
+                      <p><b> Get free delivary for every</b>of recieving your order.</p></div></div>     
+                <div class="col-md-3 feature-box">
+                  <img src="https://cdn1.vectorstock.com/i/1000x1000/35/30/wallet-icon-vector-20143530.jpg"style="width: 30px;height: 30px;">          
+                  <div class="feature-text">
+                  <p><b>Pay onlin through multiple</b>payment options(card payment/net banking)</p>   
+                    </div></div>
+                 </div>
+                </div>
+                </section>
+        <!-------------------------footer---------------------------------->
+        <section class="footer">
+        <div class="container text-center">
+        <div class="row">
+        <div class="col-md-3">
+           <h1>Useful links</h1> 
+            <p>Privacy policy</p>
+            <p>Terms of use</p>
+            <p>Return policy</p>
+            <p>Discount coupons</p>
+            </div>
+            <div class="col-md-3">
+           <h1>Company</h1> 
+            <p>About us</p>
+            <p>Contat</p>
+            <p>career</p>
+            <p>Afficiate</p>
+            </div>
+            <div class="col-md-3">
+           <h1>Follow us on</h1> 
+            <p><i class="fa fa-facebook-official"></i>Facebook</p>
+            <p><i class="fa fa-linkedina"></i>Linkedin</p>
+            <p><i class="fa fa-youtube-play"></i>Youtube</p>
+            <p><i class="fa fa-twitter"></i>Twitter</p>
+            </div>
+            <div class="col-md-3 footer-image">
+           <h1>Download App</h1> 
+                <img src="https://seeklogo.com/images/A/app-store-google-play-logo-4A2747BF5E-seeklogo.com.png" style="widht:70px;height: 70px;">
+            </div>
+            </div>
+            <hr>
+            <p clss="copyright">Made with<i class="fa fa-heart-o"></i> teju channel</p>
+            </div>        
+            </section>    
+            
+            
+            
+            
+    <script>
+        function openmenu()
+         document.getElementById("side-menu").style.display="block";
+         document.getElementById("menu-btn").style.display="none";
+         document.getElementById("close-btn").style.display="block";
+        function closemenu()
+         document.getElementById("side-menu").style.display="none";
+         document.getElementById("menu-btn").style.display="block";
+         document.getElementById("close-btn").style.display="none";
+        </script>
+    
+        <head>
+            <html>
+    
+
+
